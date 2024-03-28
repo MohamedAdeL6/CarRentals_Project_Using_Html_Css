@@ -1,0 +1,477 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.container {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	color: #bfc1c0;
+}
+
+button {
+	font-size: 12px;
+	padding: 10px 30px;
+	border: none;
+	background-color: #f9b700;
+	color: #fff;
+	margin-top: 15px;
+}
+
+
+
+/*============================   Start Landing Page   ===============================*/
+#landing-page {
+	background-image: url("../Images/header-bg.jpg");
+	background-size: cover;
+	position: relative;
+	padding-bottom: 78px;
+}
+
+#landing-page .Overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+/* --------------- section header_area ------------- */
+#landing-page .header_area {
+	position: relative;
+	z-index: 2;
+	font-weight: 600px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	gap: 2rem;
+	padding: 20px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header_area div ul li {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* ------------ section introduction_area ------------ */
+#landing-page .introduction_area {
+	position: relative;
+	z-index: 2;
+	color: white;
+	width: 100%;
+}
+
+/* -- section introduction_area div --- */
+.introduction_area div {
+	float: left;
+	width: 55%;
+	margin-top: 200px;
+}
+
+.introduction_area div span {
+	display: inline-block;
+	margin-bottom: 20px;
+
+}
+
+.introduction_area div p {
+	line-height: 1.3;
+	font-size: 15px;
+	font-weight: 100;
+	margin: 25px 0;
+}
+
+/* -- section introduction_area form --- */
+.introduction_area form {
+	width: 40%;
+	float: right;
+	padding: 50px 60px 70px;
+	border: 2px solid #606060;
+	margin-top: 30px;
+}
+
+.introduction_area form legend {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.introduction_area form input {
+	display: inline-block;
+	width: 100%;
+	margin: 8px 0;
+	padding: 12px 7px;
+	border: none;
+	border-radius: 5px;
+	color: #aaa;
+	outline: none;
+}
+
+.introduction_area form select {
+	width: 48%;
+	padding: 12px 7px;
+	border: none;
+	border-radius: 5px;
+	color: #aaa;
+	outline: none;
+}
+
+.introduction_area form legend+select {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.introduction_area form select+input {
+	width: 47%;
+	padding: 12px 8px;
+	margin-left: 10px;
+
+}
+
+.introduction_area input[type="submit"] {
+	background-color: rgb(251, 189, 4);
+	color: #fff;
+}
+
+/*============================   Section Services   ===============================*/
+#Services h1 {
+	text-align: center;
+	margin: 50px 0 15px;
+}
+
+#Services p {
+	text-align: center;
+	font-size: 14px;
+	color: #bfc1c0;
+}
+
+#Services .typesOf_serveces_box {
+	margin-top: 25px;
+}
+
+#Services .typesOf_serveces_box div {
+	float: left;
+	width: 31%;
+	margin: 15px 2px 15px 15px;
+	padding: 25px;
+	background-color: #ededf7;
+	border-radius: 10px;
+}
+
+#Services .typesOf_serveces_box div span {
+	vertical-align: 5px;
+}
+
+#Services .typesOf_serveces_box div p {
+	margin-top: 15px;
+	text-align: start;
+}
+/*============================   Section About   ===============================*/
+#about{
+	margin-top: 100px;
+}
+#about img{
+	float: left;
+	max-width: 60%;
+}
+#about .container div{
+	float: right;
+	width: 35%;
+	margin-top: 100px;
+}
+#about .container div h5{
+	margin: 12px 0;
+}
+#about .container div p{
+	margin: 12px 0;
+}
+/*==========================   Section Choose Your Card   =======================*/
+#choose_car{
+	margin-top: 150px;
+}
+#choose_car h1 {
+	text-align: center;
+	margin: 30px 0 15px;
+}
+
+#choose_car p {
+	text-align: center;
+	font-size: 14px;
+	color: #bfc1c0;
+}
+#choose_car .container div{
+	margin-top: 50px;
+}
+
+
+#choose_car .container div div{
+	width: 40%;
+	float: left;
+}
+#choose_car .container div div span{
+	display: inline-block;
+	width: 45%;
+}
+#choose_car .container div div .first_span{
+	margin-bottom: 25px;
+	text-align: start;
+}
+#choose_car .container div div .last_span{
+	margin-bottom:25px;
+	text-align: end;
+	color: #f9b700;
+	font-size: 25px;
+	font-weight: bolder;
+}
+#choose_car .container div div p{
+	text-align: start;
+	line-height: 1.4;
+
+}
+#choose_car .container div div div{
+	width: 100%;
+	margin-top: 30px;
+}
+#choose_car .container div div div p{
+	margin-bottom: 5px;
+}
+#choose_car .container div div button{
+	background-color: #000;	
+}
+
+
+#choose_car .container div img{
+	float: right;
+	width: 50%;
+}
+
+#choose_car .container div .bullets{
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+#choose_car .container div .bullets span{
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	background-color: #bfc1c0;
+	margin-right: 10px;
+}
+#choose_car .container div .bullets .active{
+	background-color: #f9b700;
+}
+
+
+
+
+
+
+
+/*==========================   Section  Experience   =======================*/
+#experience{
+	/* background:  linear-gradient(rgba(11, 0, 45, 0.7), rgba(11, 0, 45, 0.7)), url(/assets/Images/callaction-bg.jpg) ; */
+	background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/Images/callaction-bg.jpg) ;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+#experience h1{
+		margin: 100px 0 25px;
+}
+#experience p{
+	width: 83%;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+#experience  button{
+	margin: 40px 0 100px;
+	padding: 12px 30px;
+	background-color: transparent;
+	border: 1px solid #f9b700;
+	color: #f9b700;
+}
+
+
+
+
+/*==========================   Section  Blog   =======================*/
+#blog{
+	margin-top: 50px;
+}
+#blog h1 {
+	text-align: center;
+	margin: 30px 0 15px;
+}
+
+#blog p {
+	margin: 0 auto;
+	width: 59%;
+	line-height: 1.5;
+	font-size: 12px;
+	text-align: center;
+	font-size: 14px;
+	color: #bfc1c0;
+}
+#blog p + div{
+	margin-top: 100px;
+}
+
+#blog p + div div{
+	float: left;
+	width: 22%;
+	margin-right: 34px;
+}
+#blog p + div .last_card{
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#blog p + div div img{
+	display: block;
+	max-width: 100%;
+}
+#blog p + div div span{
+	display:inline-block;
+	background-color: #000;
+	color: #bfc1c0;
+	padding: 5px 15px;
+	margin: 15px 0;
+}
+#blog p + div div p{
+	text-align: start;
+	width: 100%;
+	margin-top: 10px;
+	line-height: 1.5;
+	font-size: 13px;
+}
+#blog p + div div .like,
+#blog p + div div .comment{
+	display: inline-block;
+	background-color: #fff;
+	width: 45%;
+	text-align: start;
+	padding: 0;
+}
+#blog p + div div .comment{
+	text-align: end;
+}
+#blog p + div div .like span,
+#blog p + div div .comment span {
+	display: inline-block;
+	background-color: #fff;
+	vertical-align: 2px;
+	padding: 0;
+	font-size: 14px;
+}
+#blog p + div div .like img,
+#blog p + div div .comment img{
+	display: inline-block;
+}
+
+
+
+
+
+
+/*==========================   Section  Fooetr   =======================*/
+#footer{
+	background-color: #04091d;
+}
+#footer .container{
+	padding-top: 100px;
+}
+#footer .container div div {
+	float: left;
+	width: 13%;
+	margin-right: 40px;
+}
+#footer .container div div h1{
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+#footer .container div div p{
+	color:#505057;
+	margin-bottom: 12px;
+}
+#footer .container .follow_us div {
+	width: 100%;
+	margin: 10px 0;
+}
+#footer .container .follow_us div a{
+	display: inline-block;
+}
+#footer .container .follow_us div a img{
+	width: 20px;
+	margin-right: 10px;
+}
+#footer .container .newsletter{
+	width: 30%;
+	margin-right: 0;
+	margin-left: 10px;
+}
+#footer .container .newsletter form {
+	margin-top: 25px;
+}
+#footer .container .newsletter form input{
+	padding: 13px;
+	width: 85%;
+	margin: 0;
+	outline: 0;
+	float: left;
+}
+#footer .container .newsletter form button{
+	float: right;
+	padding: 13px 0;
+	font-size: 16px;
+	width: 15% ;
+	margin: 0;
+}
+
+#footer .container .copyright{
+	padding: 30px 0;
+}
+#footer .container .copyright p{
+	text-align: center;
+	color:#505057;
+	margin: 35px 0;
+	
+}
+
+
+
